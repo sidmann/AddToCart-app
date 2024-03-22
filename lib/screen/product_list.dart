@@ -119,7 +119,7 @@ class _ProductListState extends State<ProductList> {
                                   Text(
                                     productUnit[index].toString() +
                                         " " +
-                                        r"$" +
+                                        r"₹" +
                                         productPrice[index].toString(),
                                     style: TextStyle(
                                         fontSize: 16,

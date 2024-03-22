@@ -145,7 +145,7 @@ class _CartScreenState extends State<CartScreen> {
                                                   snapshot.data![index].unitTag
                                                           .toString() +
                                                       " " +
-                                                      r"$" +
+                                                      r"₹" +
                                                       snapshot.data![index]
                                                           .productPrice
                                                           .toString(),
@@ -338,15 +338,15 @@ class _CartScreenState extends State<CartScreen> {
                   children: [
                     ReusableWidget(
                       title: 'Sub Total',
-                      value: r'$' + value.getTotalPrice().toStringAsFixed(2),
+                      value: r'₹' + value.getTotalPrice().toStringAsFixed(2),
                     ),
                     ReusableWidget(
-                      title: 'Discout 5%',
-                      value: r'$' + '20',
+                      title: 'Discount 5%',
+                      value: r'₹' + '20',
                     ),
                     ReusableWidget(
                       title: 'Total',
-                      value: r'$' + value.getTotalPrice().toStringAsFixed(2),
+                      value: r'₹' + value.getTotalPrice().toStringAsFixed(2),
                     )
                   ],
                 ),
@@ -361,6 +361,7 @@ class _CartScreenState extends State<CartScreen> {
 
 class ReusableWidget extends StatelessWidget {
   final String title, value;
+
   const ReusableWidget({required this.title, required this.value});
 
   @override
