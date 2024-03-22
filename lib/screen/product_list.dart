@@ -38,10 +38,10 @@ class _ProductListState extends State<ProductList> {
     'https://image.shutterstock.com/image-photo/mango-isolated-on-white-background-600w-610892249.jpg',
     'https://image.shutterstock.com/image-photo/orange-fruit-slices-leaves-isolated-600w-1386912362.jpg',
     'https://image.shutterstock.com/image-photo/green-grape-leaves-isolated-on-600w-533487490.jpg',
-    'https://media.istockphoto.com/photos/banana-picture-id1184345169?s=612x612',
-    'https://media.istockphoto.com/photos/cherry-trio-with-stem-and-leaf-picture-id157428769?s=612x612',
-    'https://media.istockphoto.com/photos/single-whole-peach-fruit-with-leaf-and-slice-isolated-on-white-picture-id1151868959?s=612x612',
-    'https://media.istockphoto.com/photos/fruit-background-picture-id529664572?s=612x612',
+    'https://media.istockphoto.com/id/173242750/photo/banana-bunch.jpg?s=1024x1024&w=is&k=20&c=mzktjTrLz_ZdKClKR5btvo5cBY-BJ4h4QOT8LVflB2M=',
+    'https://media.istockphoto.com/id/533381303/photo/cherry-with-leaves-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=91Fl8anu-m-dHoUfmbzay0PWbPEw1A4C-FMfu6WzrvM=',
+    'https://media.istockphoto.com/id/1151868959/photo/single-whole-peach-fruit-with-leaf-and-slice-isolated-on-white.jpg?s=1024x1024&w=is&k=20&c=zLb--kmGvSTUkjgSwVXForXx1C3WRSjGN77rXm_y6XM=',
+    'https://media.istockphoto.com/id/1273378551/photo/set-of-summer-fruits-and-berries-in-wooden-serving.jpg?s=1024x1024&w=is&k=20&c=6cuBvrVdGYtybOk7XQnagg_JPBLzxAnk6vSgxZaHbYE=',
   ];
 
   DBHelper? dbHelper = DBHelper();
